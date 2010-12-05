@@ -1,0 +1,182 @@
+/* line 1, ../../app/stylesheets/custom.scss */
+.container {
+  width: 710px;
+}
+
+/* line 4, ../../app/stylesheets/custom.scss */
+body {
+  background: #cff;
+}
+
+/* line 7, ../../app/stylesheets/custom.scss */
+header {
+  padding-top: 20px;
+}
+/* line 9, ../../app/stylesheets/custom.scss */
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+/* line 13, ../../app/stylesheets/custom.scss */
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+/* line 18, ../../app/stylesheets/custom.scss */
+section h1 {
+  font-size: 200%;
+}
+
+/* line 21, ../../app/stylesheets/custom.scss */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* links */
+/* line 30, ../../app/stylesheets/custom.scss */
+a {
+  color: #08c;
+  text-decoration: none;
+}
+/* line 33, ../../app/stylesheets/custom.scss */
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+/* line 36, ../../app/stylesheets/custom.scss */
+a:visited {
+  color: #069;
+}
+
+/* navigation */
+/* line 41, ../../app/stylesheets/custom.scss */
+nav {
+  float: right;
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+/* line 46, ../../app/stylesheets/custom.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 49, ../../app/stylesheets/custom.scss */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2 em 0;
+}
+/* line 53, ../../app/stylesheets/custom.scss */
+nav ul li a {
+  padding: 0 0.5em;
+  font-weight: bold;
+}
+/* line 56, ../../app/stylesheets/custom.scss */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 59, ../../app/stylesheets/custom.scss */
+footer nav {
+  float: none;
+}
+
+/* sign_up button */
+/* line 64, ../../app/stylesheets/custom.scss */
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #006400;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* round corners */
+/* line 78, ../../app/stylesheets/custom.scss */
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* User show page */
+/* line 85, ../../app/stylesheets/custom.scss */
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* line 90, ../../app/stylesheets/custom.scss */
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+/* line 93, ../../app/stylesheets/custom.scss */
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}
+
+/* line 99, ../../app/stylesheets/custom.scss */
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-bottom: -15px;
+}
+
+/* line 103, ../../app/stylesheets/custom.scss */
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+/* line 108, ../../app/stylesheets/custom.scss */
+.field_with_errors label {
+  color: #fff;
+}
+
+/* line 111, ../../app/stylesheets/custom.scss */
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 118, ../../app/stylesheets/custom.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 126, ../../app/stylesheets/custom.scss */
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+/* line 130, ../../app/stylesheets/custom.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
